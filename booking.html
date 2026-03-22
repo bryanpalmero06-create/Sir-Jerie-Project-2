@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Stay - Cozy Casa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" style="height: 70px; width: 70px; border-radius: 10px;">
+            <h1 style="margin-right: 105vh;">Cozy Casa</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#rooms">Rooms</a></li>
+                    <li><a href="index.html#amenities">Amenities</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="title-wrapper">
+            <span class="line"></span>
+            <h2>Book Your Stay</h2>
+            <span class="line"></span>
+            </div>
+            <form id="bookingForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <label>Check-in Date:</label>
+                <input type="date" required>
+                <label>Check-out Date:</label>
+                <input type="date" required>
+                <label style="height: 30px;">Room Type:</label>
+                <select required>
+                    <option value="">Select a Room</option>
+                    <option value="standard">Standard - $80/night</option>
+                    <option value="deluxe">Deluxe - $120/night</option>
+                    <option value="suite">Suite - $200/night</option>
+                </select>
+                <br>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Cozy Casa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
